@@ -43,3 +43,4 @@ function calcular(){
     document.getElementById("resultado")
     resultado.value = divisores(numero)
 }
+
