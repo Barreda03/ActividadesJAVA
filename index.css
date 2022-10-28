@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(91, 78, 150);
+}
+
+header{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px;
+    border: 10px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#listado{
+    color: azure;
+}
+
+#texto-prin{
+    text-align: center;
+}
+
+#imageprin img{
+    position: relative;
+    left: 425px;
+}
