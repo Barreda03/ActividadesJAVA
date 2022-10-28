@@ -14,9 +14,6 @@ console.log(3 > 2 ? "verdadero" : "false");
 
 
 
-
-
-
 let no_tocar = 12;
 
 
