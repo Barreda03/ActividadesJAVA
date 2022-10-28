@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAVASCRIPT6 </title>
-    <script src="JS/js6.js"></script>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>TABLAS</title>
 </head>
 <body>
-    <h1>TABLA</h1>
-    <br>
-    <br>
-    <div>
-        <label for="tabla">Tabla</label>
-        <input type="number" name="tabla" id="tabla">
+    <div class="contenedor">
+        <h1>GENERAR TABLAS</h1>
+        <!-- CUAL TABLA QUIERE -->
+        <label for="tabla">TABLA: </label>
+        <input type="text" name="tabla" id="tabla">
+        <br>
+        <br>
+        <!-- TIPO -->
+        <label for="tipo">TIPO DE TABLA: </label>
+        <select name="tipo" id="tipo">
+            <option value="1">NORMAL</option>
+            <option value="2">INVERTIDA</option>
+
+        </select>
+        <br>
+        <br>
+        <!-- LONGITUD -->
+        <label for="longitud">LONGITUD: </label>
+        <input type="longitud" name="longitud" id="longitud">
+        <br>
+        <br>
+        <!-- BOTON -->
+        <button onclick="calcular()">VER TABLA</button>
+        <div class="tabla_resultados">
+            <h3>TABLA DE RESULTADOS: </h3>
+            <div id="tabla_obtenida_HTML">
+
+            </div>
+        </div>
+
     </div>
-    <br>
-    <br>
-    <div>
-        <label for="tipo">TIPO</label>
-            <select name="tipo" id="tipo">
-                <option value="A">ASC</option>
-                <option value="Z">DEC</option>
-            </select>
-    </div>
-    <br>
-    <br>
-    <div>
-        <label for="longitud">LONGITUD</label>
-        <input type="number" name="longitud" id="longitud">
-    </div>
-    <br>
-    <br>
-    <div>
-        <button onclick="tabla()">RESULTAOD</button>
-    </div>
-    <br>
-    <br>
+    <script src="JS\js6.js"></script>
 </body>
 </html>
